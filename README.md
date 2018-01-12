@@ -1,24 +1,13 @@
-# README
+# prepare data
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+$ rake db:reset
+```
 
-Things you may want to cover:
+# get spots near a spot
 
-* Ruby version
 
-* System dependencies
+```
+$ rake spot:get_near_spots
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
